@@ -1,0 +1,80 @@
+/* BookSearch.css */
+
+.book_search {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book_search h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.book_search input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.book_search input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.result {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.result .book_card {
+    width: 25%; 
+    max-width: 33%;
+    height: 200px;
+    background-color: #57ee35;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.result .book_card h3 {
+    margin: 0;
+    overflow-wrap: normal;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+}
+
+.result .book_card button {
+    padding: 5px 10px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #ee00ff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.result .book_card button:hover {
+    background-color: #0056b3;
+}
